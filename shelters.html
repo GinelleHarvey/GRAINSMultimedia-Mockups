@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+      name="description"
+      content="Explore fictional shelter and support listings in THE 386 EXCHANGE website demonstration."
+    >
+    <meta name="author" content="GRAINSMultimedia LLC">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Find Shelter &amp; Support | THE 386 EXCHANGE</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/the-386-exchange.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+  </head>
+
+  <body class="inner-page shelters-page">
+    <header id="site-header" class="site-header inner-page-header">
+      <nav class="navbar navbar-expand-lg site-navigation">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            href="index.html"
+            aria-label="THE 386 EXCHANGE home"
+          >
+            <img
+              src="images/the-386-exchange-logo.svg"
+              alt="THE 386 EXCHANGE"
+              class="site-logo"
+            >
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-navigation"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+          >
+            <i class="bi bi-list" aria-hidden="true"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="shelters.html"
+                  aria-current="page"
+                >
+                  Find Help
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">
+                  Give &amp; Donate
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="volunteer.html">
+                  Volunteer
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="opportunities.html">
+                  Opportunities
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#find-help">
+                  Community
+                </a>
+              </li>
+
+              <li class="nav-item ms-lg-3">
+                <a class="btn navigation-button" href="calendar.html">
+                  View Calendar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="inner-page-hero shelters-page-hero">
+        <div class="container">
+          <div class="inner-page-hero-grid">
+            <div>
+              <p class="inner-page-eyebrow">
+                Help begins with a safe place
+              </p>
+
+              <h1>Find Shelter &amp; Support</h1>
+
+              <p>
+                Explore how individuals and families could search for shelter,
+                temporary housing, and connected support services in one place.
+              </p>
+            </div>
+
+            <div class="hero-note shelter-hero-note" role="note">
+              <span class="hero-note-icon" aria-hidden="true">
+                <i class="bi bi-shield-exclamation"></i>
+              </span>
+
+              <div>
+                <strong>Fictional resource directory</strong>
+
+                <span>
+                  These are sample listings only. This page does not provide
+                  real shelter placement or emergency assistance.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="shelter-section section-padding"
+        aria-labelledby="shelter-heading"
+      >
+        <div class="container">
+          <div class="shelter-intro">
+            <div>
+              <p class="section-eyebrow">
+                Community support directory
+              </p>
+
+              <h2 id="shelter-heading">
+                Search for the right kind of support.
+              </h2>
+
+              <p>
+                Search the fictional directory by name, service, sample area,
+                shelter type, or sample availability.
+              </p>
+            </div>
+
+            <a class="shelter-home-link" href="index.html#find-help">
+              <span aria-hidden="true">&larr;</span>
+              All Community Resources
+            </a>
+          </div>
+
+          <div class="shelter-safety-note" role="note">
+            <span aria-hidden="true">
+              <i class="bi bi-info-circle"></i>
+            </span>
+
+            <div>
+              <strong>This mockup is not an emergency resource.</strong>
+
+              <p>
+                The organizations, locations, availability, and services shown
+                below are fictional. For an actual emergency, contact the
+                appropriate local emergency service.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="shelter-search-panel"
+            role="search"
+            aria-label="Search sample shelter listings"
+          >
+            <div class="shelter-search-field">
+              <label for="shelter-search">
+                Search the directory
+              </label>
+
+              <div class="shelter-search-input">
+                <i class="bi bi-search" aria-hidden="true"></i>
+
+                <input
+                  type="search"
+                  id="shelter-search"
+                  placeholder="Search by name, service, or sample area"
+                  autocomplete="off"
+                >
+              </div>
+            </div>
+
+            <div class="shelter-filter-field">
+              <label for="shelter-type">
+                Shelter type
+              </label>
+
+              <select id="shelter-type">
+                <option value="all">All shelter types</option>
+                <option value="family">Families</option>
+                <option value="women-children">
+                  Women &amp; children
+                </option>
+                <option value="youth">Youth</option>
+                <option value="adult">Adults</option>
+                <option value="transitional">
+                  Transitional housing
+                </option>
+              </select>
+            </div>
+
+            <div class="shelter-filter-field">
+              <label for="shelter-availability">
+                Availability
+              </label>
+
+              <select id="shelter-availability">
+                <option value="all">Any availability</option>
+                <option value="open">Open intake</option>
+                <option value="limited">Limited space</option>
+                <option value="waitlist">Waitlist</option>
+              </select>
+            </div>
+
+            <button
+              id="reset-shelter-filters"
+              class="shelter-reset-button"
+              type="button"
+            >
+              <i
+                class="bi bi-arrow-counterclockwise"
+                aria-hidden="true"
+              ></i>
+              Reset
+            </button>
+          </div>
+
+          <div class="shelter-results-heading">
+            <div>
+              <p class="shelter-results-label">
+                Sample listings
+              </p>
+
+              <h2>Available community support</h2>
+            </div>
+
+            <p id="shelter-result-count" aria-live="polite">
+              Showing 6 fictional listings
+            </p>
+          </div>
+
+          <div class="shelter-layout">
+            <div>
+              <div id="shelter-list" class="shelter-list">
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="Harbor Light Family Center"
+                  data-type="family"
+                  data-availability="open"
+                  data-search="harbor light family center families children meals case management sample central 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-house-heart"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample open intake
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Family shelter</p>
+
+                    <h3>Harbor Light Family Center</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample Central 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      Short-term shelter support for fictional families with
+                      children, including meals and case-management services.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Families</li>
+                    <li>Meals</li>
+                    <li>Case support</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="Harbor Light Family Center"
+                      data-shelter-type="Family shelter"
+                      data-shelter-area="Sample Central 386 Area"
+                      data-shelter-status="Sample open intake"
+                      data-shelter-hours="Sample intake: Daily, 8:00 AM–8:00 PM"
+                      data-shelter-services="Family lodging, meals, case support, school coordination"
+                      data-shelter-description="A fictional family-centered shelter showing how residents could review eligibility, intake hours, and available support before making contact."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="Sunrise Women's Haven"
+                  data-type="women-children"
+                  data-availability="limited"
+                  data-search="sunrise women's haven women children safety counseling transportation sample east 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon shelter-card-icon-coral"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-brightness-high"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-limited">
+                      <span aria-hidden="true"></span>
+                      Sample limited space
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Women &amp; children</p>
+
+                    <h3>Sunrise Women's Haven</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample East 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      A fictional safe-stay program with counseling,
+                      transportation coordination, and family support.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Women</li>
+                    <li>Children</li>
+                    <li>Counseling</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="Sunrise Women's Haven"
+                      data-shelter-type="Women and children"
+                      data-shelter-area="Sample East 386 Area"
+                      data-shelter-status="Sample limited space"
+                      data-shelter-hours="Sample intake: Call-ahead process"
+                      data-shelter-services="Safe lodging, counseling, transportation coordination, family support"
+                      data-shelter-description="A fictional listing demonstrating how private, safety-focused services for women and children could be presented without publishing sensitive location information."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="New Path Youth House"
+                  data-type="youth"
+                  data-availability="open"
+                  data-search="new path youth house young people education meals mentoring sample north 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon shelter-card-icon-gold"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-signpost-split"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample open intake
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Youth shelter</p>
+
+                    <h3>New Path Youth House</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample North 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      Temporary support for fictional young people, with meals,
+                      education coordination, and mentoring resources.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Youth</li>
+                    <li>Education</li>
+                    <li>Mentoring</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="New Path Youth House"
+                      data-shelter-type="Youth shelter"
+                      data-shelter-area="Sample North 386 Area"
+                      data-shelter-status="Sample open intake"
+                      data-shelter-hours="Sample intake: Daily, 9:00 AM–9:00 PM"
+                      data-shelter-services="Temporary lodging, meals, education coordination, mentoring"
+                      data-shelter-description="A fictional youth listing demonstrating a clear intake summary and connections to education and mentoring support."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="Restoring Steps Center"
+                  data-type="adult"
+                  data-availability="limited"
+                  data-search="restoring steps center adults overnight showers laundry job connections sample west 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon shelter-card-icon-navy"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-moon-stars"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-limited">
+                      <span aria-hidden="true"></span>
+                      Sample limited space
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Adult overnight shelter</p>
+
+                    <h3>Restoring Steps Center</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample West 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      A fictional overnight program offering basic needs,
+                      employment connections, and housing-navigation support.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Adults</li>
+                    <li>Basic needs</li>
+                    <li>Job support</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="Restoring Steps Center"
+                      data-shelter-type="Adult overnight shelter"
+                      data-shelter-area="Sample West 386 Area"
+                      data-shelter-status="Sample limited space"
+                      data-shelter-hours="Sample check-in: 4:00 PM–7:00 PM"
+                      data-shelter-services="Overnight lodging, showers, laundry, job connections"
+                      data-shelter-description="A fictional adult shelter listing showing how daily check-in information and practical support services could be organized."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="Bridgeway Transition Home"
+                  data-type="transitional"
+                  data-availability="waitlist"
+                  data-search="bridgeway transition home transitional housing families adults budgeting employment long term sample south 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon shelter-card-icon-teal"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-arrow-up-right-circle"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-waitlist">
+                      <span aria-hidden="true"></span>
+                      Sample waitlist
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Transitional housing</p>
+
+                    <h3>Bridgeway Transition Home</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample South 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      Longer-term fictional housing support with budgeting,
+                      employment preparation, and independent-living guidance.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Housing plan</li>
+                    <li>Budgeting</li>
+                    <li>Employment</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="Bridgeway Transition Home"
+                      data-shelter-type="Transitional housing"
+                      data-shelter-area="Sample South 386 Area"
+                      data-shelter-status="Sample waitlist"
+                      data-shelter-hours="Sample referrals: Monday–Friday"
+                      data-shelter-services="Housing planning, budgeting, employment preparation, life skills"
+                      data-shelter-description="A fictional transitional-housing listing demonstrating how longer-term services and a waitlist could be communicated."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="shelter-card"
+                  data-shelter-card
+                  data-name="Open Door Welcome House"
+                  data-type="adult"
+                  data-availability="open"
+                  data-search="open door welcome house adults day resource mail showers meals referrals sample greater 386"
+                >
+                  <div class="shelter-card-top">
+                    <span
+                      class="shelter-card-icon shelter-card-icon-coral"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-door-open"></i>
+                    </span>
+
+                    <span class="shelter-status shelter-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample open intake
+                    </span>
+                  </div>
+
+                  <div class="shelter-card-copy">
+                    <p>Day resource center</p>
+
+                    <h3>Open Door Welcome House</h3>
+
+                    <span class="shelter-location">
+                      <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                      Sample Greater 386 Area
+                    </span>
+
+                    <p class="shelter-description">
+                      A fictional daytime resource center offering meals,
+                      showers, mail service, and referrals to overnight shelter.
+                    </p>
+                  </div>
+
+                  <ul
+                    class="shelter-services"
+                    aria-label="Sample services"
+                  >
+                    <li>Day services</li>
+                    <li>Meals</li>
+                    <li>Referrals</li>
+                  </ul>
+
+                  <div class="shelter-card-actions">
+                    <button
+                      class="shelter-details-button"
+                      type="button"
+                      data-shelter-name="Open Door Welcome House"
+                      data-shelter-type="Day resource center"
+                      data-shelter-area="Sample Greater 386 Area"
+                      data-shelter-status="Sample open intake"
+                      data-shelter-hours="Sample hours: Monday–Saturday, 8:00 AM–5:00 PM"
+                      data-shelter-services="Meals, showers, mail service, shelter referrals"
+                      data-shelter-description="A fictional daytime support listing showing how residents could find basic services and connect with overnight shelter referrals."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+              </div>
+
+              <div
+                id="shelter-empty-state"
+                class="shelter-empty-state"
+                aria-live="polite"
+                hidden
+              >
+                <span aria-hidden="true">
+                  <i class="bi bi-search"></i>
+                </span>
+
+                <h2>No sample listings match those filters.</h2>
+
+                <p>
+                  Try a different search term, shelter type, or availability.
+                </p>
+
+                <button
+                  id="empty-reset-shelter-filters"
+                  type="button"
+                >
+                  Show All Sample Listings
+                </button>
+              </div>
+            </div>
+
+            <aside
+              class="shelter-sidebar"
+              aria-label="Shelter listing information"
+            >
+              <section
+                id="shelter-details-panel"
+                class="shelter-details-card"
+                aria-labelledby="selected-shelter-heading"
+                tabindex="-1"
+              >
+                <p class="shelter-sidebar-label">
+                  Selected shelter
+                </p>
+
+                <span
+                  class="shelter-details-icon"
+                  aria-hidden="true"
+                >
+                  <i class="bi bi-house-heart"></i>
+                </span>
+
+                <h2 id="selected-shelter-heading">
+                  Choose a sample listing
+                </h2>
+
+                <p id="selected-shelter-description">
+                  Select “View Sample Details” on any listing to see its sample
+                  services, intake hours, and location information here.
+                </p>
+
+                <div
+                  id="selected-shelter-information"
+                  hidden
+                >
+                  <dl class="shelter-details-list">
+                    <div>
+                      <dt>Type</dt>
+                      <dd id="selected-shelter-type">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Sample area</dt>
+                      <dd id="selected-shelter-area">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Availability</dt>
+                      <dd id="selected-shelter-status">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Hours</dt>
+                      <dd id="selected-shelter-hours">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Services</dt>
+                      <dd id="selected-shelter-services">
+                        Not selected
+                      </dd>
+                    </div>
+                  </dl>
+
+                  <a
+                    class="shelter-request-button"
+                    href="schedule.html"
+                  >
+                    Start a Sample Request
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                </div>
+              </section>
+
+              <section
+                class="shelter-more-help-card"
+                aria-labelledby="more-help-heading"
+              >
+                <p class="shelter-sidebar-label">
+                  More ways to find help
+                </p>
+
+                <h2 id="more-help-heading">
+                  Explore other resources
+                </h2>
+
+                <div class="shelter-more-help-links">
+                  <a href="people-looking.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-people"></i>
+                    </span>
+
+                    <strong>People Looking</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a href="items-needed.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-box-seam"></i>
+                    </span>
+
+                    <strong>Items Needed</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a href="rentals.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-key"></i>
+                    </span>
+
+                    <strong>Rental Resources</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </section>
+
+              <div class="shelter-demo-note" role="note">
+                <strong>Fictional demonstration</strong>
+
+                <p>
+                  All shelter names, service areas, availability, hours,
+                  eligibility information, and services on this page are
+                  fictional placeholders. No real shelter services or
+                  commitments are offered through this mockup.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="images/the-386-exchange-logo.svg"
+            alt="THE 386 EXCHANGE"
+          >
+
+          <p>
+            Connecting people, resources, and opportunities throughout the
+            386 community.
+          </p>
+
+          <a href="contact.html">
+            Contact THE 386 EXCHANGE
+          </a>
+        </div>
+
+        <div>
+          <h2>Find Support</h2>
+          <a href="shelters.html" aria-current="page">
+            Shelters
+          </a>
+          <a href="people-looking.html">People Looking</a>
+          <a href="items-needed.html">Items Needed</a>
+          <a href="rentals.html">Rentals</a>
+        </div>
+
+        <div>
+          <h2>Get Involved</h2>
+          <a href="donate.html">Donate Items</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="opportunities.html">
+            Jobs &amp; Opportunities
+          </a>
+          <a href="calendar.html">Community Calendar</a>
+        </div>
+
+        <div>
+          <h2>Exchange Services</h2>
+          <a href="payments.html">Payments</a>
+          <a href="movers.html">Delivery &amp; Movers</a>
+          <a href="cars.html">Cars</a>
+          <a href="schedule.html">Schedule</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>
+          &copy; 2026 THE 386 EXCHANGE. All rights reserved.
+        </span>
+
+        <span>
+          Website design by GRAINSMultimedia LLC
+        </span>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/the-386-exchange.js"></script>
+  </body>
+</html>

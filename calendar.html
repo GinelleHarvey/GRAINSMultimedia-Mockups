@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+      name="description"
+      content="View community events, volunteer days, workshops, and resource drives on THE 386 EXCHANGE calendar."
+    >
+    <meta name="author" content="GRAINSMultimedia LLC">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Community Calendar | THE 386 EXCHANGE</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/the-386-exchange.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+  </head>
+
+  <body class="inner-page calendar-page">
+    <header id="site-header" class="site-header inner-page-header">
+      <nav class="navbar navbar-expand-lg site-navigation">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            href="index.html"
+            aria-label="THE 386 EXCHANGE home"
+          >
+            <img
+              src="images/the-386-exchange-logo.svg"
+              alt="THE 386 EXCHANGE"
+              class="site-logo"
+            >
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-navigation"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+          >
+            <i class="bi bi-list" aria-hidden="true"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="shelters.html">Find Help</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">Give &amp; Donate</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="volunteer.html">Volunteer</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="opportunities.html">
+                  Opportunities
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#find-help">Community</a>
+              </li>
+
+              <li class="nav-item ms-lg-3">
+                <a
+                  class="btn navigation-button active"
+                  href="calendar.html"
+                  aria-current="page"
+                >
+                  View Calendar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="inner-page-hero">
+        <div class="container">
+          <div class="inner-page-hero-grid">
+            <div>
+              <p class="inner-page-eyebrow">Plan what is next</p>
+
+              <h1>Community Events Calendar</h1>
+
+              <p>
+                Explore community events, donation drives, workshops,
+                volunteer days, and opportunities to connect.
+              </p>
+            </div>
+
+            <div class="hero-note" role="note">
+              <span class="hero-note-icon" aria-hidden="true">✓</span>
+
+              <div>
+                <strong>Interactive demonstration</strong>
+
+                <span>
+                  Change months, filter the events, and select an event to see
+                  all its information.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="calendar-section section-padding"
+        aria-labelledby="calendar-heading"
+      >
+        <div class="container">
+          <div class="calendar-intro">
+            <div>
+              <p class="section-eyebrow">What is happening</p>
+
+              <h2 id="calendar-heading">Find a day to connect.</h2>
+
+              <p>
+                Select an event on the calendar to see its date, time,
+                category, location, and additional information.
+              </p>
+            </div>
+
+            <a class="btn calendar-schedule-button" href="schedule.html">
+              Schedule an Activity
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="calendar-layout">
+            <div class="calendar-card">
+              <div class="calendar-toolbar">
+                <div class="calendar-month-copy">
+                  <span>Monthly view</span>
+                  <h2 id="calendar-month" aria-live="polite">Calendar</h2>
+                </div>
+
+                <div
+                  class="calendar-navigation"
+                  role="group"
+                  aria-label="Calendar navigation"
+                >
+                  <button
+                    class="calendar-nav-button"
+                    id="previous-month"
+                    type="button"
+                    aria-label="Show previous month"
+                  >
+                    <span aria-hidden="true">←</span>
+                  </button>
+
+                  <button
+                    class="calendar-today-button"
+                    id="today-button"
+                    type="button"
+                  >
+                    Today
+                  </button>
+
+                  <button
+                    class="calendar-nav-button"
+                    id="next-month"
+                    type="button"
+                    aria-label="Show next month"
+                  >
+                    <span aria-hidden="true">→</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="calendar-filters"
+                role="group"
+                aria-label="Filter calendar events"
+              >
+                <button
+                  class="calendar-filter is-active"
+                  type="button"
+                  data-filter="all"
+                >
+                  All Events
+                </button>
+
+                <button
+                  class="calendar-filter"
+                  type="button"
+                  data-filter="community"
+                >
+                  <span
+                    class="filter-dot community-dot"
+                    aria-hidden="true"
+                  ></span>
+                  Community
+                </button>
+
+                <button
+                  class="calendar-filter"
+                  type="button"
+                  data-filter="support"
+                >
+                  <span
+                    class="filter-dot support-dot"
+                    aria-hidden="true"
+                  ></span>
+                  Resources
+                </button>
+
+                <button
+                  class="calendar-filter"
+                  type="button"
+                  data-filter="volunteer"
+                >
+                  <span
+                    class="filter-dot volunteer-dot"
+                    aria-hidden="true"
+                  ></span>
+                  Volunteer
+                </button>
+
+                <button
+                  class="calendar-filter"
+                  type="button"
+                  data-filter="opportunity"
+                >
+                  <span
+                    class="filter-dot opportunity-dot"
+                    aria-hidden="true"
+                  ></span>
+                  Opportunities
+                </button>
+              </div>
+
+              <div
+                class="calendar-scroll"
+                tabindex="0"
+                aria-label="Scrollable monthly calendar"
+              >
+                <div class="calendar-weekdays" aria-hidden="true">
+                  <span>Sun</span>
+                  <span>Mon</span>
+                  <span>Tue</span>
+                  <span>Wed</span>
+                  <span>Thu</span>
+                  <span>Fri</span>
+                  <span>Sat</span>
+                </div>
+
+                <div
+                  class="calendar-grid"
+                  id="calendar-grid"
+                  role="grid"
+                  aria-labelledby="calendar-month"
+                ></div>
+              </div>
+            </div>
+
+            <aside class="calendar-sidebar" aria-label="Calendar information">
+              <section
+                class="upcoming-events-card"
+                aria-labelledby="upcoming-heading"
+              >
+                <div class="sidebar-heading">
+                  <p>Coming up</p>
+                  <h2 id="upcoming-heading">Events This Month</h2>
+                </div>
+
+                <div
+                  id="upcoming-events"
+                  class="upcoming-events"
+                  aria-live="polite"
+                ></div>
+              </section>
+
+              <section
+                class="event-details-card"
+                aria-labelledby="event-details-heading"
+              >
+                <p class="event-details-label">Selected event</p>
+
+                <div id="event-details" aria-live="polite">
+                  <h2 id="event-details-heading">Choose an event</h2>
+
+                  <p>
+                    Click any event on the calendar or in the monthly list to
+                    see more information here.
+                  </p>
+                </div>
+              </section>
+
+              <div class="calendar-demo-note" role="note">
+                <strong>Mockup notice</strong>
+
+                <p>
+                  All events, organizations, locations, and contact details
+                  shown here are fictional placeholders for demonstration
+                  purposes only.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="images/the-386-exchange-logo.svg"
+            alt="THE 386 EXCHANGE"
+          >
+
+          <p>
+            Connecting people, resources, and opportunities throughout the 386
+            community.
+          </p>
+
+          <a href="contact.html">Contact THE 386 EXCHANGE</a>
+        </div>
+
+        <div>
+          <h2>Find Support</h2>
+          <a href="shelters.html">Shelters</a>
+          <a href="people-looking.html">People Looking</a>
+          <a href="items-needed.html">Items Needed</a>
+          <a href="rentals.html">Rentals</a>
+        </div>
+
+        <div>
+          <h2>Get Involved</h2>
+          <a href="donate.html">Donate Items</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="opportunities.html">Jobs &amp; Opportunities</a>
+          <a href="calendar.html" aria-current="page">
+            Community Calendar
+          </a>
+        </div>
+
+        <div>
+          <h2>Exchange Services</h2>
+          <a href="payments.html">Payments</a>
+          <a href="movers.html">Delivery &amp; Movers</a>
+          <a href="cars.html">Cars</a>
+          <a href="schedule.html">Schedule</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>&copy; 2026 THE 386 EXCHANGE. All rights reserved.</span>
+        <span>Website design by GRAINSMultimedia LLC</span>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/the-386-exchange.js"></script>
+  </body>
+</html>

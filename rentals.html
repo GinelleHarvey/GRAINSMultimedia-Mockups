@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+      name="description"
+      content="Explore fictional rental listings in THE 386 EXCHANGE website demonstration."
+    >
+    <meta name="author" content="GRAINSMultimedia LLC">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Rentals Available | THE 386 EXCHANGE</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/the-386-exchange.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+  </head>
+
+  <body class="inner-page rentals-page">
+    <header id="site-header" class="site-header inner-page-header">
+      <nav class="navbar navbar-expand-lg site-navigation">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            href="index.html"
+            aria-label="THE 386 EXCHANGE home"
+          >
+            <img
+              src="images/the-386-exchange-logo.svg"
+              alt="THE 386 EXCHANGE"
+              class="site-logo"
+            >
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-navigation"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+          >
+            <i class="bi bi-list" aria-hidden="true"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="rentals.html"
+                  aria-current="page"
+                >
+                  Find Help
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">
+                  Give &amp; Donate
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="volunteer.html">
+                  Volunteer
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="opportunities.html">
+                  Opportunities
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#find-help">
+                  Community
+                </a>
+              </li>
+
+              <li class="nav-item ms-lg-3">
+                <a class="btn navigation-button" href="calendar.html">
+                  View Calendar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="inner-page-hero rentals-page-hero">
+        <div class="container">
+          <div class="inner-page-hero-grid">
+            <div>
+              <p class="inner-page-eyebrow">
+                A place to begin again
+              </p>
+
+              <h1>Rentals Available</h1>
+
+              <p>
+                Explore how community members could search for apartments,
+                homes, rooms, and other rental opportunities in one place.
+              </p>
+            </div>
+
+            <div class="hero-note rental-hero-note" role="note">
+              <span class="hero-note-icon" aria-hidden="true">
+                <i class="bi bi-house-door"></i>
+              </span>
+
+              <div>
+                <strong>Fictional rental directory</strong>
+
+                <span>
+                  Every property, price, location, feature, and availability
+                  status on this page is sample information only.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="rental-section section-padding"
+        aria-labelledby="rental-heading"
+      >
+        <div class="container">
+          <div class="rental-intro">
+            <div>
+              <p class="section-eyebrow">
+                Community rental directory
+              </p>
+
+              <h2 id="rental-heading">
+                Search for a place that fits your needs.
+              </h2>
+
+              <p>
+                Search the fictional listings by property name, sample area,
+                rental type, feature, or maximum monthly rent.
+              </p>
+            </div>
+
+            <a class="rental-home-link" href="index.html#find-help">
+              <span aria-hidden="true">&larr;</span>
+              All Community Resources
+            </a>
+          </div>
+
+          <div class="rental-safety-note" role="note">
+            <span aria-hidden="true">
+              <i class="bi bi-shield-check"></i>
+            </span>
+
+            <div>
+              <strong>
+                Protect yourself when searching for housing.
+              </strong>
+
+              <p>
+                In a completed website, renters should verify every property
+                and landlord before sharing personal information or sending
+                money. The listings below are entirely fictional.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="rental-search-panel"
+            role="search"
+            aria-label="Search sample rental listings"
+          >
+            <div class="rental-search-field">
+              <label for="rental-search">
+                Search the directory
+              </label>
+
+              <div class="rental-search-input">
+                <i class="bi bi-search" aria-hidden="true"></i>
+
+                <input
+                  type="search"
+                  id="rental-search"
+                  placeholder="Search by name, area, or feature"
+                  autocomplete="off"
+                >
+              </div>
+            </div>
+
+            <div class="rental-filter-field">
+              <label for="rental-type">
+                Rental type
+              </label>
+
+              <select id="rental-type">
+                <option value="all">All rental types</option>
+                <option value="apartment">Apartment</option>
+                <option value="studio">Studio</option>
+                <option value="townhome">Townhome</option>
+                <option value="house">House</option>
+                <option value="room">Private room</option>
+                <option value="senior">Senior housing</option>
+              </select>
+            </div>
+
+            <div class="rental-filter-field">
+              <label for="rental-price">
+                Maximum monthly rent
+              </label>
+
+              <select id="rental-price">
+                <option value="all">Any sample price</option>
+                <option value="700">Up to $700</option>
+                <option value="900">Up to $900</option>
+                <option value="1200">Up to $1,200</option>
+                <option value="1600">Up to $1,600</option>
+              </select>
+            </div>
+
+            <button
+              id="reset-rental-filters"
+              class="rental-reset-button"
+              type="button"
+            >
+              <i
+                class="bi bi-arrow-counterclockwise"
+                aria-hidden="true"
+              ></i>
+              Reset
+            </button>
+          </div>
+
+          <div class="rental-results-heading">
+            <div>
+              <p class="rental-results-label">
+                Sample listings
+              </p>
+
+              <h2>Rental opportunities</h2>
+            </div>
+
+            <p id="rental-result-count" aria-live="polite">
+              Showing 6 fictional listings
+            </p>
+          </div>
+
+          <div class="rental-layout">
+            <div>
+              <div id="rental-list" class="rental-list">
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Magnolia Court Apartment"
+                  data-type="apartment"
+                  data-price="875"
+                  data-search="magnolia court apartment one bedroom central 386 laundry bus route pet friendly water trash"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-building"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample available now
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>One-bedroom apartment</p>
+
+                    <h3>Magnolia Court Apartment</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample Central 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional one-bedroom apartment near a sample bus
+                      route, with community laundry and water included.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      1 bed
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      1 bath
+                    </span>
+
+                    <strong>$875/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Laundry</li>
+                    <li>Near transit</li>
+                    <li>Pet friendly</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Magnolia Court Apartment"
+                      data-rental-type="One-bedroom apartment"
+                      data-rental-area="Sample Central 386 Area"
+                      data-rental-rent="$875 per month"
+                      data-rental-status="Sample available now"
+                      data-rental-deposit="$500 sample deposit"
+                      data-rental-utilities="Water and trash shown as included"
+                      data-rental-features="Community laundry, nearby bus route, pet-friendly sample policy"
+                      data-rental-description="A fictional one-bedroom apartment demonstrating how renters could review monthly rent, deposits, included utilities, features, and availability before requesting more information."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Seabreeze Family Townhome"
+                  data-type="townhome"
+                  data-price="1250"
+                  data-search="seabreeze family townhome two bedroom east 386 patio parking play area electric"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon rental-card-icon-coral"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-house-door"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-upcoming">
+                      <span aria-hidden="true"></span>
+                      Sample coming soon
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>Two-bedroom townhome</p>
+
+                    <h3>Seabreeze Family Townhome</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample East 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional family townhome with parking, a small
+                      patio, and access to a shared outdoor play area.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      2 beds
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      1.5 baths
+                    </span>
+
+                    <strong>$1,250/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Parking</li>
+                    <li>Patio</li>
+                    <li>Play area</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Seabreeze Family Townhome"
+                      data-rental-type="Two-bedroom townhome"
+                      data-rental-area="Sample East 386 Area"
+                      data-rental-rent="$1,250 per month"
+                      data-rental-status="Sample coming soon"
+                      data-rental-deposit="$800 sample deposit"
+                      data-rental-utilities="Tenant shown as responsible for electric"
+                      data-rental-features="Reserved parking, small patio, shared outdoor play area"
+                      data-rental-description="A fictional townhome listing showing how a family could compare bedrooms, bathrooms, monthly rent, utilities, and community features."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Garden Gate Studio"
+                  data-type="studio"
+                  data-price="725"
+                  data-search="garden gate studio north 386 secure entry garden transit water compact apartment"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon rental-card-icon-gold"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-key"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample available now
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>Studio apartment</p>
+
+                    <h3>Garden Gate Studio</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample North 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional compact studio with secure entry, nearby
+                      transportation, and access to a community garden.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      Studio
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      1 bath
+                    </span>
+
+                    <strong>$725/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Secure entry</li>
+                    <li>Water included</li>
+                    <li>Garden</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Garden Gate Studio"
+                      data-rental-type="Studio apartment"
+                      data-rental-area="Sample North 386 Area"
+                      data-rental-rent="$725 per month"
+                      data-rental-status="Sample available now"
+                      data-rental-deposit="$400 sample deposit"
+                      data-rental-utilities="Water shown as included"
+                      data-rental-features="Secure entry, nearby transportation, community garden"
+                      data-rental-description="A fictional studio listing demonstrating an affordable-looking option with clearly organized cost, utility, and building-feature information."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Palm Haven Senior Apartment"
+                  data-type="senior"
+                  data-price="810"
+                  data-search="palm haven senior apartment one bedroom south 386 elevator accessibility community room age eligibility"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon rental-card-icon-navy"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-building"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-waitlist">
+                      <span aria-hidden="true"></span>
+                      Sample waitlist
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>Senior apartment</p>
+
+                    <h3>Palm Haven Senior Apartment</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample South 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional age-qualified apartment with elevator
+                      access, accessible common areas, and a community room.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      1 bed
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      1 bath
+                    </span>
+
+                    <strong>$810/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Elevator</li>
+                    <li>Accessible</li>
+                    <li>Community room</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Palm Haven Senior Apartment"
+                      data-rental-type="Age-qualified senior apartment"
+                      data-rental-area="Sample South 386 Area"
+                      data-rental-rent="$810 per month"
+                      data-rental-status="Sample waitlist"
+                      data-rental-deposit="$450 sample deposit"
+                      data-rental-utilities="Water and basic cable shown as included"
+                      data-rental-features="Elevator access, accessible common areas, community room"
+                      data-rental-description="A fictional senior-housing listing demonstrating how eligibility, accessibility features, costs, and waitlist information could be presented."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Riverside Shared Home"
+                  data-type="room"
+                  data-price="625"
+                  data-search="riverside shared home private furnished room west 386 wifi utilities kitchen month to month"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon rental-card-icon-teal"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-people"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-open">
+                      <span aria-hidden="true"></span>
+                      Sample available now
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>Private room</p>
+
+                    <h3>Riverside Shared Home</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample West 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional furnished private room with shared kitchen
+                      and bathroom access, Wi-Fi, and sample utilities included.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      Private room
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      Shared bath
+                    </span>
+
+                    <strong>$625/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Furnished</li>
+                    <li>Wi-Fi</li>
+                    <li>Utilities included</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Riverside Shared Home"
+                      data-rental-type="Furnished private room"
+                      data-rental-area="Sample West 386 Area"
+                      data-rental-rent="$625 per month"
+                      data-rental-status="Sample available now"
+                      data-rental-deposit="$300 sample deposit"
+                      data-rental-utilities="Sample utilities and Wi-Fi included"
+                      data-rental-features="Furnished room, shared kitchen, shared bathroom, month-to-month sample term"
+                      data-rental-description="A fictional room listing showing how shared-space details, included utilities, furnishing, and rental terms could be explained before contact."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+
+                <article
+                  class="rental-card"
+                  data-rental-card
+                  data-name="Hope Landing Family House"
+                  data-type="house"
+                  data-price="1550"
+                  data-search="hope landing family house three bedroom greater 386 yard parking washer dryer hookup coming soon"
+                >
+                  <div class="rental-card-top">
+                    <span
+                      class="rental-card-icon rental-card-icon-coral"
+                      aria-hidden="true"
+                    >
+                      <i class="bi bi-house"></i>
+                    </span>
+
+                    <span class="rental-status rental-status-upcoming">
+                      <span aria-hidden="true"></span>
+                      Sample coming soon
+                    </span>
+                  </div>
+
+                  <div class="rental-card-copy">
+                    <p>Three-bedroom house</p>
+
+                    <h3>Hope Landing Family House</h3>
+
+                    <span class="rental-location">
+                      <i
+                        class="bi bi-geo-alt"
+                        aria-hidden="true"
+                      ></i>
+                      Sample Greater 386 Area
+                    </span>
+
+                    <p class="rental-description">
+                      A fictional three-bedroom home with parking, a small
+                      yard, and washer-and-dryer connections.
+                    </p>
+                  </div>
+
+                  <div
+                    class="rental-card-facts"
+                    aria-label="Sample rental facts"
+                  >
+                    <span>
+                      <i
+                        class="bi bi-door-open"
+                        aria-hidden="true"
+                      ></i>
+                      3 beds
+                    </span>
+
+                    <span>
+                      <i
+                        class="bi bi-droplet"
+                        aria-hidden="true"
+                      ></i>
+                      2 baths
+                    </span>
+
+                    <strong>$1,550/mo.</strong>
+                  </div>
+
+                  <ul
+                    class="rental-features"
+                    aria-label="Sample features"
+                  >
+                    <li>Yard</li>
+                    <li>Parking</li>
+                    <li>Laundry hookup</li>
+                  </ul>
+
+                  <div class="rental-card-actions">
+                    <button
+                      class="rental-details-button"
+                      type="button"
+                      data-rental-name="Hope Landing Family House"
+                      data-rental-type="Three-bedroom house"
+                      data-rental-area="Sample Greater 386 Area"
+                      data-rental-rent="$1,550 per month"
+                      data-rental-status="Sample coming soon"
+                      data-rental-deposit="$1,000 sample deposit"
+                      data-rental-utilities="Tenant shown as responsible for all utilities"
+                      data-rental-features="Small yard, driveway parking, washer-and-dryer connections"
+                      data-rental-description="A fictional family-house listing demonstrating how larger rental options, move-in costs, utilities, and property features could be compared."
+                    >
+                      View Sample Details
+                      <span aria-hidden="true">&rarr;</span>
+                    </button>
+                  </div>
+                </article>
+              </div>
+
+              <div
+                id="rental-empty-state"
+                class="rental-empty-state"
+                aria-live="polite"
+                hidden
+              >
+                <span aria-hidden="true">
+                  <i class="bi bi-search"></i>
+                </span>
+
+                <h2>
+                  No sample rentals match those filters.
+                </h2>
+
+                <p>
+                  Try a different search term, rental type, or maximum rent.
+                </p>
+
+                <button
+                  id="empty-reset-rental-filters"
+                  type="button"
+                >
+                  Show All Sample Rentals
+                </button>
+              </div>
+            </div>
+
+            <aside
+              class="rental-sidebar"
+              aria-label="Rental listing information"
+            >
+              <section
+                id="rental-details-panel"
+                class="rental-details-card"
+                aria-labelledby="selected-rental-heading"
+                tabindex="-1"
+              >
+                <p class="rental-sidebar-label">
+                  Selected rental
+                </p>
+
+                <span
+                  class="rental-details-icon"
+                  aria-hidden="true"
+                >
+                  <i class="bi bi-house-door"></i>
+                </span>
+
+                <h2 id="selected-rental-heading">
+                  Choose a sample listing
+                </h2>
+
+                <p id="selected-rental-description">
+                  Select “View Sample Details” on any rental to see its sample
+                  rent, deposit, utilities, features, and availability here.
+                </p>
+
+                <div id="selected-rental-information" hidden>
+                  <dl class="rental-details-list">
+                    <div>
+                      <dt>Type</dt>
+                      <dd id="selected-rental-type">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Sample area</dt>
+                      <dd id="selected-rental-area">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Monthly rent</dt>
+                      <dd id="selected-rental-rent">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Availability</dt>
+                      <dd id="selected-rental-status">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Deposit</dt>
+                      <dd id="selected-rental-deposit">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Utilities</dt>
+                      <dd id="selected-rental-utilities">
+                        Not selected
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt>Features</dt>
+                      <dd id="selected-rental-features">
+                        Not selected
+                      </dd>
+                    </div>
+                  </dl>
+
+                  <a
+                    class="rental-request-button"
+                    href="schedule.html"
+                  >
+                    Request Sample Information
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                </div>
+              </section>
+
+              <section
+                class="rental-more-help-card"
+                aria-labelledby="rental-more-help-heading"
+              >
+                <p class="rental-sidebar-label">
+                  Connected resources
+                </p>
+
+                <h2 id="rental-more-help-heading">
+                  Help with your next step
+                </h2>
+
+                <div class="rental-more-help-links">
+                  <a href="shelters.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-house-heart"></i>
+                    </span>
+
+                    <strong>Find Shelter</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a href="items-needed.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-box-seam"></i>
+                    </span>
+
+                    <strong>Items Needed</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a href="cars.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-car-front"></i>
+                    </span>
+
+                    <strong>Cars &amp; Transportation</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a href="movers.html">
+                    <span aria-hidden="true">
+                      <i class="bi bi-truck"></i>
+                    </span>
+
+                    <strong>Movers for Hire</strong>
+
+                    <i
+                      class="bi bi-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </section>
+
+              <div class="rental-demo-note" role="note">
+                <strong>Fictional demonstration</strong>
+
+                <p>
+                  All property names, service areas, prices, deposits,
+                  availability, utilities, and features on this page are
+                  fictional placeholders. No real rental is being offered.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="images/the-386-exchange-logo.svg"
+            alt="THE 386 EXCHANGE"
+          >
+
+          <p>
+            Connecting people, resources, and opportunities throughout the
+            386 community.
+          </p>
+
+          <a href="contact.html">
+            Contact THE 386 EXCHANGE
+          </a>
+        </div>
+
+        <div>
+          <h2>Find Support</h2>
+          <a href="shelters.html">Shelters</a>
+          <a href="people-looking.html">People Looking</a>
+          <a href="items-needed.html">Items Needed</a>
+          <a href="rentals.html" aria-current="page">
+            Rentals
+          </a>
+        </div>
+
+        <div>
+          <h2>Get Involved</h2>
+          <a href="donate.html">Donate Items</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="opportunities.html">
+            Jobs &amp; Opportunities
+          </a>
+          <a href="calendar.html">
+            Community Calendar
+          </a>
+        </div>
+
+        <div>
+          <h2>Exchange Services</h2>
+          <a href="payments.html">Payments</a>
+          <a href="movers.html">Delivery &amp; Movers</a>
+          <a href="cars.html">Cars &amp; Transportation</a>
+          <a href="schedule.html">Schedule</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>
+          &copy; 2026 THE 386 EXCHANGE. All rights reserved.
+        </span>
+
+        <span>
+          Website design by GRAINSMultimedia LLC
+        </span>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/the-386-exchange.js"></script>
+  </body>
+</html>
